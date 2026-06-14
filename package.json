@@ -1,0 +1,15 @@
+{
+  "name": "colorkit-quick",
+  "version": "1.0.0",
+  "description": "Zero-dep color manipulation: RGB/HSL/HSV conversions, mixing, WCAG contrast, harmonies, gradients",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "colorkit": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["color", "rgb", "hsl", "hsv", "hex", "contrast", "wcag", "palette", "mix", "gradient"],
+  "license": "MIT"
+}
