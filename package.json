@@ -10,6 +10,34 @@
   "scripts": {
     "test": "node --test test/*.test.js"
   },
-  "keywords": ["color", "rgb", "hsl", "hsv", "hex", "contrast", "wcag", "palette", "mix", "gradient"],
-  "license": "MIT"
+  "keywords": [
+    "color",
+    "rgb",
+    "hsl",
+    "hsv",
+    "hex",
+    "contrast",
+    "wcag",
+    "palette",
+    "mix",
+    "gradient"
+  ],
+  "license": "MIT",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/colorkit-quick.git"
+  },
+  "homepage": "https://github.com/sulthonzh/colorkit-quick#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/colorkit-quick/issues"
+  },
+  "author": "Sulthon Z"
 }
